@@ -31,6 +31,7 @@ MENTRE i documenti (x) sono > 0
 
     - Rimuovo il documento scannerizzato (x-1)
 
+    SE documenti (x) = 0
+      TRUE:  - Fine compito
 
-
-- Fine compito
+      FALSE: - Ripeto il ciclo MENTRE
